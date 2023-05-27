@@ -1,21 +1,27 @@
-# Desafio Frontend - LAComp Ufal
+# WeatherNow
 
-## Objetivo
+Este é um site desenvolvido com Angular que utiliza a API OpenWeatherAPI para exibir informações sobre o tempo. Com base na localização do usuário, o site exibe dados atualizados sobre temperatura, umidade, velocidade do vento e condições climáticas.
 
-O objetivo desse desafio é avaliar e nivelar o nível de desenvolvimento do time que cuidara da frente Frontend da LAComp, avaliando pontos especificos como:
 
-- Git/Github
-- Comunicação com API REST/RESTFull
-- Criação de interface
-- Arquitetura
-- Rotas
+## Funcionalidades
+Exibição da previsão do tempo atualizada em tempo real.
+Detalhes sobre a temperatura, umidade, velocidade do vento e condições climáticas.
+Busca por cidade para obter informações de qualquer localização desejada.
+Interface amigável e responsiva para facilitar a navegação em diferentes dispositivos.
 
-## Desafio
 
-O desafio consiste no desenvolvimento de um Frontend em [Angular](https://angular.io/) que consuma a API do [OpenWeatherApi](https://openweathermap.org/api/one-call-3).
+## Como usar
+- Clone este repositório em sua máquina local.
+- Certifique-se de ter o Angular CLI instalado.
+- Instale as dependências do projeto usando o comando npm install.
+- Obtenha uma chave de API gratuita da OpenWeatherAPI.
+- Abra o arquivo environment.ts na pasta src/environments e substitua o valor da propriedade apiKey pela sua chave de API.
+- Execute o comando ng serve para iniciar o servidor de desenvolvimento.
+- Acesse o site em seu navegador através do endereço http://localhost:4200.
 
-O site deve conter duas telas obrigatoriamente, a primeira tela com dois campos de texto, um que coleta a latitude e outro que coleta a longitude que sera digitada pelo usuário. A segunda tela que exibe as informações de tempo do dia (<b>Temperatura durante o dia, temperatura durante a tarde, temperatura durante a noite, temperatura máxima e temperatura mínima</b>) baseado na Latitude e Longitude digitada pelo usuário
 
-<b>Lembre-se de converter as temperaturas para Celcius!</b>
-
-Não se esqueça de caprichar na interface gráfica e na experiência do usuário, sugiro procurar um Design para uma solução semelhante no [Dribbble](https://dribbble.com/) ou no [Pinterest](https://br.pinterest.com/)
+## Tecnologias utilizadas
+- Angular
+- TypeScript
+- HTML
+- CSS
