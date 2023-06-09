@@ -16,7 +16,7 @@ Interface amigável e responsiva para facilitar a navegação em diferentes disp
 - Instale as dependências do projeto usando o comando npm install.
 - Obtenha uma chave de API gratuita da OpenWeatherAPI.
 - Abra o arquivo environment.ts na pasta src/environments e substitua o valor da propriedade apiKey pela sua chave de API.
-- No terminal, navegue até a pasta weathernow e execute o comando npm start para iniciar o servidor de desenvolvimento.
+- No terminal, execute o comando npm install e após concluir a instalação, npm start para iniciar o servidor de desenvolvimento.
 - Acesse o site em seu navegador através do endereço http://localhost:4200.
 
 
