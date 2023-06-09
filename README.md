@@ -27,9 +27,4 @@ Interface amigável e responsiva para facilitar a navegação em diferentes disp
 - CSS
 
 ## Design
-<<<<<<< HEAD
 - Feito no [Figma](https://www.figma.com/), [clique aqui para ver](https://www.figma.com/file/Cs3epJzl9SNnZkgiLUOn6K/Untitled?type=design&node-id=0%3A1&t=IFYVEkllcvCRQEdC-1).
-=======
-- Feito no [Figma](https://www.figma.com/), [clique aqui para ver](https://www.figma.com/file/Cs3epJzl9SNnZkgiLUOn6K/Untitled?type=design&node-id=0%3A1&t=IFYVEkllcvCRQEdC-1).
-
->>>>>>> 122d19a7527abbc096a21024eef8f484e862d40a
