@@ -25,3 +25,6 @@ Interface amigável e responsiva para facilitar a navegação em diferentes disp
 - TypeScript
 - HTML
 - CSS
+
+## Design
+https://www.figma.com/file/Cs3epJzl9SNnZkgiLUOn6K/Untitled?type=design&node-id=0%3A1&t=IFYVEkllcvCRQEdC-1
