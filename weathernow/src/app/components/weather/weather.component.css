@@ -1,0 +1,70 @@
+.divConteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-content: center;
+    row-gap: .8rem;
+    column-gap: 1rem;
+}
+
+.mid .normal{
+    font-size: 64px;
+}
+
+.mid img {
+    width: fit-content;
+}
+
+.minimal{
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin: auto;
+}
+
+.desc{
+    max-width: min-content;
+}
+
+.mid .gridBox{
+    margin-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.bottom {
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.bottom .bussola {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 170px;
+}
+
+.bottom .bussola img{
+    position: absolute;
+}
+
+#flecha_bussolaIcon{
+    transform: rotate( 0deg );
+}

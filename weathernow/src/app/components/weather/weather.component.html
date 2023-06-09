@@ -1,0 +1,22 @@
+<div class="divConteudo">
+  <div class="top">
+    <span>A previsão para {{weatherData.name}} é:</span>
+  </div>
+  <div class="mid">
+    <div><img id="skyIcon" src="https://openweathermap.org/img/wn/{{weatherData.weather[0].icon}}.png"></div>
+    <div class="normal">{{weatherData.main.temp}}º c</div>
+    <div class="minimal">{{weatherData.weather[0].description}}</div>
+    <div class="minimal">max {{weatherData.main.temp_max}}º c</div>
+    <div class="minimal">sensação {{weatherData.main.feels_like}}º c</div>
+    <div class="minimal">min {{weatherData.main.temp_min}}º c</div>
+    <div class="gridBox minimal">Umidade {{weatherData.main.feels_like}}%</div>
+  </div>
+  <div class="bottom">
+    <div>Vento</div>
+    <div class="bussola">
+      <img id="bussolaIcon" src="../../../assets/brujula.svg">
+      <img [style.transform]="'rotate(' + (weatherData.wind.deg - 180)  + 'deg)'" id="flecha_brujulaIcon" src="../../../assets/flecha_brujula.svg">
+    </div>
+    <div class="minimal">Velocidade dos ventos: {{weatherData.wind.speed}} km/h</div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="divTop">
+  <div class="top">
+    <span>Como está o tempo em</span>
+  </div>
+  <form #searchcity = "ngForm" (ngSubmit) = "onClickSubmit(searchcity.value)">
+    <div class="search">
+      <input autofocus required type="text" class="searchCity" placeholder="Cidade" ngModel name="city">
+      <button class="btnSearch" type="submit">
+        <mat-icon aria-hidden="false" fontIcon="search"></mat-icon>
+      </button>
+    </div>
+  </form>
+</div>

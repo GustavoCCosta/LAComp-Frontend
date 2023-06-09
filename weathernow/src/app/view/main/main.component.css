@@ -1,0 +1,21 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    width: 480px;
+    height: 640px;
+
+    background: #4F985C;
+    mix-blend-mode: normal;
+    border-radius: 35px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
