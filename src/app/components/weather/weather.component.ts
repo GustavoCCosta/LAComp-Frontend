@@ -34,10 +34,11 @@ export class WeatherComponent implements OnInit {
   }
 
   formatData(){
-    this.weatherData.wind.speed = 3.6 * this.weatherData.wind.speed;
-    this.weatherData.wind.speed = parseInt(this.weatherData.wind.speed);
-    this.weatherData.main.temp = parseInt(this.weatherData.main.temp);
-    this.weatherData.main.feels_like = parseInt(this.weatherData.main.feels_like);
-    
+    this.weatherData.wind.speed *= 3.6;
+    this.weatherData.wind.speed = this.weatherData.wind.speed.toFixed(1);
+    this.weatherData.main.temp = this.weatherData.main.temp.toFixed(1);
+    this.weatherData.main.feels_like = this.weatherData.main.feels_like.toFixed(1);
+    this.weatherData.main.temp_min = this.weatherData.main.temp_min.toFixed(1);
+    this.weatherData.main.temp_max = this.weatherData.main.temp_max.toFixed(1);
   }
 }
