@@ -3,7 +3,7 @@
     <span>A previsão para {{weatherData.name}} é:</span>
   </div>
   <div class="mid">
-    <div><img id="skyIcon" src="https://openweathermap.org/img/wn/{{weatherData.weather[0].icon}}.png"></div>
+    <div class="img-weather"><img src="https://openweathermap.org/img/wn/{{weatherData.weather[0].icon}}.png"></div>
     <div class="normal">{{weatherData.main.temp}}º c</div>
     <div class="minimal">{{weatherData.weather[0].description}}</div>
     <div class="minimal">max {{weatherData.main.temp_max}}º c</div>
@@ -14,8 +14,8 @@
   <div class="bottom">
     <div>Vento</div>
     <div class="bussola">
-      <img id="bussolaIcon" src='./assets/bussolaIcon.svg'>
-      <img [style.transform]="'rotate(' + (weatherData.wind.deg - 180)  + 'deg)'" id="flecha_brujulaIcon" src='./assets/flecha_bussola.svg'>
+      <img id="bussolaIcon" src='../assets/bussolaIcon.svg'>
+      <img [style.transform]="'rotate(' + (weatherData.wind.deg - 180)  + 'deg)'" id="flecha_brujulaIcon" src='../assets/flecha_bussola.svg'>
     </div>
     <div class="minimal">Velocidade dos ventos: {{weatherData.wind.speed}} km/h</div>
   </div>

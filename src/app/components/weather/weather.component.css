@@ -23,15 +23,16 @@
     column-gap: 1rem;
 }
 
-.mid .normal{
+.mid .img-weather {
+    display: flex;
+    justify-content: center;
+}
+
+.mid .normal {
     font-size: 64px;
 }
 
-.mid img {
-    width: fit-content;
-}
-
-.minimal{
+.minimal {
     font-weight: 100;
     font-size: 1.3rem;
     line-height: 24px;
@@ -39,11 +40,11 @@
     margin: auto;
 }
 
-.desc{
+.desc {
     max-width: min-content;
 }
 
-.mid .gridBox{
+.mid .gridBox {
     margin-top: 10px;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -61,10 +62,10 @@
     margin-bottom: 170px;
 }
 
-.bottom .bussola img{
+.bottom .bussola img {
     position: absolute;
 }
 
-#flecha_bussolaIcon{
-    transform: rotate( 0deg );
+#flecha_bussolaIcon {
+    transform: rotate(0deg);
 }
